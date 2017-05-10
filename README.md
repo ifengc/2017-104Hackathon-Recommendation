@@ -12,6 +12,15 @@
     + Date: 2016-04 ~ 2017-03
     + [Schema](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/data-schema/user_log_schema.md)
     + [Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/user_log_sample.csv) 
+* 公司與職缺資料
+    + 類目資料
+        - File:
+            - department.csv
+            - district.csv
+            - industry.csv
+            - job_category.csv
+        - Description: 在職缺結構化欄位中的類目對照
+        - [Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/) 
 ## 評分標準
 * 推薦結果 70% 
 * 設計方法 30%（包含簡報內容、演算法設計、資料闡釋與分析等）
