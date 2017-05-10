@@ -13,6 +13,11 @@
     + [Schema](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/data-schema/user_log_schema.md)
     + [Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/user_log_sample.csv) 
 * 公司與職缺資料
+    + 上市櫃公司與五百大企業
+        - File: companies.csv 
+        - Decription: 台灣所有上市櫃公司與資本額前五百大企業，共有1147間公司
+        - [Schema](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/data-schema/companies_schema.md)
+        - [Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/companies_sample.md)
     + 類目資料
         - File:
             - department.csv
