@@ -26,6 +26,14 @@
         - [Job Structured Info Schema](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/data-schema/job_structured_info.md)
         - [Job Description Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/job_description_sample.csv)
         - [Job Structured Info Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/job_structured_info_sample.csv)
+    + 職缺異動歷史資料
+        - File: job_structured_info_{yyyymm}.csv, job_description_{yyyymm}.csv
+        - Description: 對每一筆職缺結構化的欄位資料與該職缺文字描述的修改歷程
+        - Date: 2014/03 - 2017/03/31 
+        - [Job Description History Schema](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/data-schema/job_description_history_schema.md)
+        - [Job Structured Info History Schema](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/data-schema/job_structured_info_history_schema.md)
+        - [Job Description History Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/job_description_2014_sample.csv)
+        - [Job Structured Info History Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/job_structured_info_2014_sample.csv)
     + 類目資料
         - File:
             - department.csv
@@ -33,9 +41,9 @@
             - industry.csv
             - job_category.csv
         - Description: 在職缺結構化欄位中的類目對照
-        - [Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/) 
+
 ## 評分標準
-* 推薦結果 70% 
+* 推薦結果 70%
 * 設計方法 30%（包含簡報內容、演算法設計、資料闡釋與分析等）
 
 ## 104開放資料授權條款 
