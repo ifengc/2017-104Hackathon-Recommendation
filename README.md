@@ -17,13 +17,13 @@
         - File: companies.csv 
         - Decription: 台灣所有上市櫃公司與資本額前五百大企業，共有1147間公司
         - [Schema](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/data-schema/companies_schema.md)
-        - [Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/companies_sample.md)
+        - [Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/companies_sample.csv)
     + 職缺資料
         - File: job_structured_info.csv, job_description.csv
         - Description: 對每一筆職缺結構化的欄位資料與該職缺的文字描述
         - Date: 2017/03/29
-        - [Job Description Schema](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/data-schema/job_description.md)
-        - [Job Structured Info Schema](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/data-schema/job_structured_info.md)
+        - [Job Description Schema](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/data-schema/job_description_schema.md)
+        - [Job Structured Info Schema](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/data-schema/job_structured_info_schema.md)
         - [Job Description Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/job_description_sample.csv)
         - [Job Structured Info Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/job_structured_info_sample.csv)
     + 職缺異動歷史資料
@@ -36,10 +36,10 @@
         - [Job Structured Info History Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/job_structured_info_2014_sample.csv)
     + 類目資料
         - File:
-            - department.csv
-            - district.csv
-            - industry.csv
-            - job_category.csv
+            - department.csv [Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/department_sample.csv)
+            - district.csv [Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/district_sample.csv)
+            - industry.csv [Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/industry_sample.csv)
+            - job_category.csv [Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/job_category_sample.csv)
         - Description: 在職缺結構化欄位中的類目對照
 
 ## 評分標準
