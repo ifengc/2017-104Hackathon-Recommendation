@@ -42,10 +42,10 @@ https://www.104.com.tw/2017hackathon/
         - 訓練資料集將在賽前以Email通知參賽者
     + 類目資料
         - File:
-            - department.csv [Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/department_sample.csv)
-            - district.csv [Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/district_sample.csv)
-            - industry.csv [Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/industry_sample.csv)
-            - job_category.csv [Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/job_category_sample.csv)
+            - 科系類目: department.csv [Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/department_sample.csv)
+            - 地區類目: district.csv [Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/district_sample.csv)
+            - 產業類目: industry.csv [Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/industry_sample.csv)
+            - 職務類目: job_category.csv [Sample](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/sample-data/job_category_sample.csv)
         - Description: 在職務結構化欄位中的類目對照
         - 訓練資料集將在賽前以Email通知參賽者
 
