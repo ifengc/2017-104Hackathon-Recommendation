@@ -4,9 +4,11 @@
 請參賽者利用求職應徵紀錄及工作內容，預測求職者可能會喜歡的工作。
 ## 活動網址
 https://www.104.com.tw/2017hackathon/
+
 ## 主題說明
 主辦單位於賽前提供參賽者一段特定時間區間內去識別化的行為記錄（user Log），以及千大企業刊登的工作內容做為 Training Data，讓參賽隊伍從中進行學習以找尋出使用者瀏覽應徵模式，以預測求職者可能會喜歡的工作。  
 比賽當天，將備有 Testing Data，讓參賽隊伍能夠藉由從 Training Data 得到的瀏覽應徵來預測，主辦單位將會透過計分網址來告知參賽者推算結果之準確率(Precision, Recall, F-measure)，作為評分標準。
+
 ## 資料集說明
 * 104求職者去識別化行為記錄
     + File: user_log.csv
@@ -49,11 +51,35 @@ https://www.104.com.tw/2017hackathon/
         - Description: 在職務結構化欄位中的類目對照
         - 訓練資料集將在賽前以Email通知參賽者
 
-## 上傳預測結果
-* 預測testing set中求職者對職務是否有apply行為
-* 上傳範例：TBA
-* 上傳網址：TBA
-* Leader Board：TBA
+## 規則說明與範例
+* 比賽當天，Recommendation的參賽者將會另外拿到 user_log_testset.csv，此份資料與 user_log.csv的schema相同，出現過的uid, jobNo的pair是否有'applyJob'行為。參賽者可使用user_log.csv訓練出的推薦模型，預測所有在user_log_testset.csv中出現過的user, job的pair使否有applyJob行為。
+
+* 參賽者會拿到的上傳範例如下圖：
+
+    | uid  | jobNo   | apply |
+    | :-:  | :-----: | :---: |
+    | 2228 | 8420823 |       |
+    | 2228 | 6945004 |       |
+    | 2228 | 8507147 |       |
+    | 2228 | 8916004 |       |
+	
+* 預測結果後於apply欄位填入1/0上傳，每一隊當天有 __十次__ 的上傳次數限制，上傳後可以得到該次上傳的結果，若排名進前三名則會顯示在Leader Board上。
+
+    | uid  | jobNo   | apply |
+    | :-:  | :-----: | :---: |
+    | 2228 | 8420823 | 1     |
+    | 2228 | 6945004 | 0     |
+    | 2228 | 8507147 | 0     |
+    | 2228 | 8916004 | 0     |
+	
+* 範例程式
+    + 可參考使用sklearn logistic regression的[範例](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/rec-example/rec_example.ipynb)
+    
+* 相關資訊連結
+    + Testing set : 比賽當天公布
+    + 上傳範例：比賽當天公布
+    + 上傳網址：TBA
+    + Leader Board：TBA
 
 ## 評分標準
 * 推薦結果 70%
