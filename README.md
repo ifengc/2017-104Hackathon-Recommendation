@@ -76,10 +76,9 @@ https://www.104.com.tw/2017hackathon/
     + 可參考使用sklearn logistic regression的[範例](https://github.com/104corp/2017-104Hackathon-Recommendation/blob/master/rec-example/rec_example.ipynb)
     
 * 相關資訊連結
-    + Testing set : 比賽當天公布
-    + 上傳範例：比賽當天公布
-    + 上傳網址：TBA
-    + Leader Board：TBA
+    + Testing set：比賽前一天以Email通知參賽者下載連結
+    + 上傳範例：比賽前一天以Email通知參賽者下載連結
+    + Leader Board及上傳網址：https://hackathon2017.events.104.com.tw
 
 ## 評分標準
 * 推薦結果 70%
